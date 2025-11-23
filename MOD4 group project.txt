@@ -1,9 +1,14 @@
 START
+    Declarations
+        NUM grossPay
+        NUM stateTax
+        NUM federalTax
+        NUM Totaldeductions
     INPUT grossPay
-    CALCULATE stateTax = grossPay * 5.6
-    CALCULATE federalTax = grossPay * 7.9
-    CALCULATE Totaldeductions = federalTax + stateTax
-    CALCULATE netPay = grossPay - Totaldeductions
+    stateTax = grossPay * 5.6
+    federalTax = grossPay * 7.9
+    Totaldeductions = federalTax + stateTax
+    netPay = grossPay - Totaldeductions
     OUTPUT stateTax
     OUTPUT federalTax
     OUTPUT Totaldeductions
