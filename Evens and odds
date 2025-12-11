@@ -1,0 +1,13 @@
+# Even/Odd Number Checker
+# This program creates a list of 15 numbers and checks if each is even or odd
+
+# List of 15 numbers
+numbers = [3, 8, 15, 22, 7, 10, 1, 18, 11, 6, 13, 20, 5, 14, 9]
+
+# Loop through the list
+for number in numbers:
+    # Check if the number is even
+    if number % 2 == 0:
+        print(str(number) + " is even")
+    else:
+        print(str(number) + " is odd")
